@@ -1,0 +1,37 @@
+.imagem-mockup {
+    margin-left: 10px;
+}
+
+.conteudo h2 {
+    font-size: 42px;
+    margin-bottom: 20px ;
+    max-width: 80%;
+    line-height: 1.4;
+    padding-top: 40px;
+    color: #FFFFFF;
+}
+
+.conteudo p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 83%;
+    color: #DDDDDD;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.conteudo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    border-radius: 30px;
+    height: 60px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.15s ease-in-out;
+    margin: 20px 0;
+}

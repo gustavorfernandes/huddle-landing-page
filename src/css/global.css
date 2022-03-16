@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/huddle-landing-page-with-single-introductory-section-master/src/images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+}
+
+header img {
+    margin: 10vh 0 0 11vh;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+main {
+    min-height: 72vh;
+    max-width: 100vw;
+    margin: 0 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conteudo-principal {
+    display: flex;
+    gap: 60px;
+}
+
+footer {
+    text-align: right;
+    margin: 0 5vh 15vh 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-facebook {
+    fill: #FFFFFF;
+    width: 15px;    
+}
+
+.icone-twitter {
+    fill: #FFFFFF;
+    width: 25px;
+    margin-left: 30px;
+}
+
+.icone-instagram {
+    fill: #FFFFFF;
+    width: 25px;
+    margin-left: 30px;
+}
