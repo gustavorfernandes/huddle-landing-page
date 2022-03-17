@@ -1,0 +1,374 @@
+@media (max-width: 1580px) {
+    header img {
+        width: 270px;
+        margin: 30px 0 0 50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    header img {
+        width: 250px;
+    }
+
+    main {
+        width: 1080px;
+        height: 50vh;
+        align-items: center;
+    }
+
+    .conteudo h2 {
+        font-size: 32px;
+    }
+
+    .conteudo p {
+        font-size: 14px;
+    }
+
+    footer {
+        margin-left: 900px;
+        padding-top: 20px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    header img {
+        width: 230px;
+    }
+
+    main {
+        width: 940px;
+        height: 50vh;
+        align-items: center;
+    }
+
+    .conteudo h2 {
+        font-size: 32px;
+    }
+
+    .conteudo p {
+        font-size: 14px;
+    }
+
+    footer {
+        margin-left: 700px;
+        padding-top: 20px;
+    }
+
+}
+
+@media (max-width: 970px) {
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+    }
+        
+    header img {
+        width: 180px;
+        margin-top: 60px;
+    }
+
+    main {
+        height: 50%;
+        width: 80%;
+        align-items: center;
+        
+    }
+
+    .conteudo-principal {
+       flex-direction: column;
+       margin-top: -20px;
+    }
+   
+    .imagem-principal {
+        width: 540px;
+        margin: auto;
+    }
+
+    .conteudo {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .conteudo h2 {
+        font-size: 28px;
+        width: 100%;
+        margin-right: 0;
+        padding-top: 0;
+    }
+
+    .conteudo p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .conteudo span {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-width: 60%;
+        margin-left: 20%;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-top: -70px;
+        
+    }
+
+}
+
+@media (max-width: 690px) {
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+    }
+        
+    header img {
+        width: 180px;
+        margin-top: 60px;
+    }
+
+    main {
+        height: 50%;
+        width: 80%;
+        align-items: center;
+        
+    }
+
+    .conteudo-principal {
+       flex-direction: column;
+       margin-top: -20px;
+       gap: 60px;
+    }
+   
+    .imagem-principal {
+        width: 340px;
+        margin: auto;
+    }
+
+    .conteudo {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .conteudo h2 {
+        font-size: 28px;
+        width: 100%;
+        margin-right: 0;
+        padding-top: 0;
+    }
+
+    .conteudo p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .conteudo span {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-width: 60%;
+        margin-left: 20%;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-top: -70px;
+        
+    }
+
+}
+
+@media (max-width: 450px) {
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+        
+    header img {
+        width: 180px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    main {
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .conteudo-principal {
+       flex-direction: column;
+       margin-top: -53px;
+       gap: 60px;
+    }
+   
+    .imagem-principal {
+        width: 340px;
+        margin: auto;
+    }
+
+    .conteudo {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .conteudo h2 {
+        font-size: 26px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0;
+        padding-top: 0;
+        font-weight: normal;
+    }
+
+    .conteudo p {
+        font-size: 18px;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .conteudo span {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-width: 60%;
+        margin-left: 20%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: -70px;
+        position: absolute;
+        align-items: left;
+        justify-content: center;
+    
+    }
+
+    .icone-facebook {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icone-twitter {
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    .icone-instagram {
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+        
+    header img {
+        width: 140px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    main {
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .conteudo-principal {
+       flex-direction: column;
+       margin-top: -40px;
+       gap: 60px;
+    }
+   
+    .imagem-principal {
+        width: 340px;
+        margin: auto;
+    }
+
+    .conteudo {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: -20px;
+    }
+    
+    .conteudo h2 {
+        font-size: 24px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0;
+        padding-top: 0;
+        font-weight: normal;
+    }
+
+    .conteudo p {
+        font-size: 14px;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .conteudo span {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-width: 60%;
+        margin-left: 20%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: -60px;
+        position: absolute;
+        align-items: left;
+        justify-content: center;
+    
+    }
+
+    .icone-facebook {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icone-twitter {
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    .icone-instagram {
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+}

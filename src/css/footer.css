@@ -1,9 +1,9 @@
 footer {
-    text-align: right;
-    margin: 0 0 30px 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 1200px;
+    padding-top: 30px;
 }
 
 .icone-facebook {
@@ -60,7 +60,7 @@ footer {
 }
 
 .icone-instagram:hover {
-    fill: hsl(300, 69%, 71%);
+    fill: hsla(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
     color: #FFFFFF;
 }

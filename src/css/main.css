@@ -1,18 +1,13 @@
 main {
-    min-height: 75vh;
-    max-width: 100vw;
-    margin: 0 15vh;
+    width: 1280px;
+    margin: 10vh auto;
     display: flex;
-    align-items: center; 
-    justify-content: center;     
+    min-height: 20vw;
 }
 
 .conteudo-principal {
     display: flex;
-    height: 100%;
-    width: 100%;
     gap: 30px;
-    margin: 6% 0 0 0;
 }
 
 .imagem-principal {
@@ -20,8 +15,7 @@ main {
 }
 
 .imagem-principal img {
-    width: 98%;
-    height: 95%;
+    width: 100%;
 }
 
 .conteudo {
@@ -31,27 +25,23 @@ main {
 .conteudo h2 {
     font-size: 44px;
     margin-bottom: 18px ;
-    max-width: 80%;
     line-height: 1.3;
     color: #FFFFFF;
-    margin-top: 10%;
-    padding-left: 20px;
+    padding-top: 50px;
 }
 
 .conteudo p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
-    max-width: 90%;
     color: #DDDDDD;
     font-weight: lighter;
     text-align: left;   
-    padding-left: 20px; 
 }
 
 .conteudo span {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
@@ -64,7 +54,6 @@ main {
     transition: 0.15s ease-in-out;
     margin-top: 25px;
     transition: 0.3s;   
-    margin-left: 20px; 
 }
 
 .conteudo span:hover {
