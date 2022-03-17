@@ -59,7 +59,7 @@
 
 @media (max-width: 970px) {
     body {
-        background-image: url(/src/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -125,7 +125,7 @@
 
 @media (max-width: 690px) {
     body {
-        background-image: url(/src/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -192,7 +192,7 @@
 
 @media (max-width: 450px) {
     body {
-        background-image: url(/src/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-position: top;
         background-attachment: fixed;
@@ -283,7 +283,7 @@
 
 @media (max-width: 380px) {
     body {
-        background-image: url(/src/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-position: top;
         background-size: contain;
