@@ -1,0 +1,66 @@
+footer {
+    text-align: right;
+    margin: 0 0 30px 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-facebook {
+    fill: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icone-facebook:hover {
+    fill: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+}
+
+.icone-twitter {
+    fill: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icone-twitter:hover {
+    fill: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+}
+
+.icone-instagram {
+    fill: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icone-instagram:hover {
+    fill: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+}
